@@ -20,7 +20,7 @@ export const routes: Routes = [
   },
   {
     path: 'custom',
-    title: 'Pipes Personalizas',
+    title: 'Pipes Personalizados',
     loadComponent: () => import ('./pages/custom-page/custom-page')
   },
   {
